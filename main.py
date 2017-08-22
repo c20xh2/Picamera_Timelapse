@@ -117,7 +117,7 @@ elif launch == ('y'):
 			timeleft = round(timeleft, 0)
 			# Grab the frame
 			camera = PiCamera()
-			camera.resolution = (3280, 2464)
+			camera.resolution = (1920, 1080)
 			filename  = savepath + '/' + str(i) + '.png'
 			time.sleep(interval)
 			time.sleep(0.5)
